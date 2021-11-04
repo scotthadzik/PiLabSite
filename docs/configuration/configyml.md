@@ -25,7 +25,7 @@ repo_url: 'https://github.com/carlosperate/jekyll-theme-rtd'
 edit_on_github: true
 github_docs_folder: true
 logo: 'https://your.url/image.png'
-site_favicon: 'https://your.url/here.ico'
+site_favicon: https://www.favicon.cc/?action=icon&file_id=825375
 sticky_navigation: true
 prev_next_buttons_location: None
 prev_next_buttons_location: top
