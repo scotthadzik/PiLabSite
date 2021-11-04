@@ -4,7 +4,7 @@ title: Index
 nav_exclude: true
 ---
 
-# Electronics Lab 
+# 🚀 Electronics Lab 
 
 This is a port of the
 [Read The Docs](https://sphinx-rtd-theme.readthedocs.io) theme to
