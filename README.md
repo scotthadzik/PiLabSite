@@ -2,8 +2,7 @@
 
 Port of the Read the Docs theme to Jekyll that can be used with GitHub Pages.
 
-You can preview it in the
-[user documentation](https://carlosperate.github.io/jekyll-theme-rtd):
+
 
 ![theme screenshot](docs/assets/img/screenshot.png)
 
@@ -21,20 +20,13 @@ Check out the [quick start guide]() to see how easy it is to
 This theme is currently a **Work-In-Progress** but, while some things might be
 broken, it should be already usable.
 
-Missing features are listed in the GitHub issues with the
-[to-do label](https://github.com/carlosperate/jekyll-theme-rtd/issues?q=is%3Aissue+is%3Aopen+label%3Ato-do),
-and any known issues are listed with the
-[bug label](https://github.com/carlosperate/jekyll-theme-rtd/issues?q=is%3Aissue+is%3Aopen+label%3Abug).
 
-Contributions are very welcomed!
 
 
 ## 🗂️ Readme Contents
 
 This README contains mostly the developer documentation to edit this theme.
 
-To learn how to use this theme for your own website or docs check out the
-[user documentation](https://carlosperate.github.io/jekyll-theme-rtd).
 
 - [🚀 Using this theme with GitHub Pages](#-using-this-theme-with-github-pages)
 - [👩‍💻 Developer Documentation](#-developer-documentation)
@@ -49,7 +41,7 @@ To learn how to use this theme for your own website or docs check out the
 ## 🚀 Using this theme with GitHub Pages
 
 The fastest way to use this theme is with GitHub Pages, check out the
-[Quick Start Guide from the user documentation](https://carlosperate.github.io/jekyll-theme-rtd/quickstart.html).
+
 
 ## 👩‍💻 Developer Documentation
 
@@ -113,7 +105,7 @@ inside a "docs" folder, and therefore in the "docs" category in the left
 navigation bar and page URLs.
 
 On the other hand the root of the website built and served with
-[GitHub Pages](https://carlosperate.github.io/jekyll-theme-rtd) is the
+
 "docs" folder, so the left navigation bar will show the child folder as
 categories and the URLs will be different.
 
