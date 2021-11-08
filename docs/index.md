@@ -4,16 +4,16 @@ title: Index
 nav_exclude: true
 ---
 
-# 🚀 Electronics Lab 
+# Electronics Lab 
+# Department of Automotive Technology
+# Weber State University
 
-This is a port of the
-[Read The Docs](https://sphinx-rtd-theme.readthedocs.io) theme to
-[Jekyll](https://jekyllrb.com/), so that it can be used with GitHub Pages.
+Welcome to the Lab
 
 You are previewing the theme right now, as you navigate
 [this documentation](https://carlosperate.github.io/jekyll-theme-rtd):
 
-![pi4](assets/img/pi4.png)
+![lab](assets\img\electronics_lab.jpg)
 
 The original [Read The Docs](https://readthedocs.org)
 [theme]((https://sphinx-rtd-theme.readthedocs.io)) was created for the
