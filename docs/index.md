@@ -13,7 +13,7 @@ This is a port of the
 You are previewing the theme right now, as you navigate
 [this documentation](https://carlosperate.github.io/jekyll-theme-rtd):
 
-![pi4](assets/img/screenshot.png)
+![pi4](assets/img/pi4.png)
 
 The original [Read The Docs](https://readthedocs.org)
 [theme]((https://sphinx-rtd-theme.readthedocs.io)) was created for the
