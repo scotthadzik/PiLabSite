@@ -11,12 +11,15 @@ is a credit card size computer that contains all the necessary hardware to run a
 
 ![pi4](assets\img\pi4.png)
 
-## Input and the Pi
+## Input monitoring with the Pi
 
 The 40-pin GPIO header found on the Pi makes it so the computer can monitor various types of inputs. Most of the pins on the header can be programed as an input or an output. 
 The input pins can be used to monitor the state of a switch or value of a sensor. 
 
 ![pi_input](assets\img\pi_input.png)
+
+|:--:|
+| <b>Fig.2 - GPIO as an Input</b>|
 
 
 
