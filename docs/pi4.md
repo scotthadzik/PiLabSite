@@ -26,8 +26,8 @@ The input pins can be used to monitor the state of a switch or value of a sensor
 ## 1.2. GPIO Header
 
 The GPIO header on the Pi has 40 male pins spaced 2.54 mm / 0.1 in apart. The Pi uses two distinct pin naming conventions. Understanding the pin numbering is critical to correctly working with the GPIO. The physical pin numbering (BOARD) is shown in the center rectangle of Figure 1. The odd physical pins are on the left side and the even pins are on the right side. The pins are numbered in sequence from left to right. The second numbering system uses the Broadcom (BCM) CPU pin sequence. Most of these pins are labeled with a GPIO on the front of the name. They are not sequenced on the board in any discernible pattern.  The following bullet points show an example of the two numbering systems.
-BOARD pin 11 is the same as BCM pin 17 which is labeled GPIO17
-BOARD pin 13 is the same as BCM pin 27 which is labeled as GPIO27
+- BOARD pin 11 is the same as BCM pin 17 which is labeled GPIO17
+- BOARD pin 13 is the same as BCM pin 27 which is labeled as GPIO27
 The numbering systems used by the Pi can be a bit confusing. Open source programs found online may use either system. The program will identify which of the systems that is used in the code.  Code Snippet 1 for BCM and Code Snippet 2 for BOARD. This paper and all associated code will use the BOARD numbering system. More Pi GPIO pin information can be found at https://pinout.xyz/. 
 
 
