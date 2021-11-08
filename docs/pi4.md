@@ -18,7 +18,7 @@ The input pins can be used to monitor the state of a switch or value of a sensor
 
 ![pi_input](assets\img\pi_input.png)
 
-|:--:|
+| :----: |
 | <b>Fig.2 - GPIO as an Input</b>|
 
 
