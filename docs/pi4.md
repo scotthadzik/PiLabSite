@@ -17,10 +17,15 @@ is a credit card size computer that contains all the necessary hardware to run a
 
 ## 1.1. Pi On-Board Components
 
-The Pi has a Broadcom BCM2711, Quad core ARM processor with a 64 bit 
-
-
-
+The [Pi has the following components built into the board](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)
+- Broadcom BCM2711, Quad core ARM 64 bit processor
+- RAM options of 2GB, 4GB, 8GB
+- Wireless and Bluetooth connectivity
+- Ethernet port
+- USB 3.0 and USB 2.0
+- 2 x micro-HDMI connectors
+- Micro-SD card slot
+- USB-C for 5V power
 
 
 ## 1.2. Input monitoring with the Pi
