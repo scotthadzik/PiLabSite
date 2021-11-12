@@ -4,7 +4,7 @@ title: Introduction to the Raspberry Pi
 nav_order: 1
 ---
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/unwSNOHRA8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OIiorW_x8VA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </p>
 
@@ -15,9 +15,17 @@ is a credit card size computer that contains all the necessary hardware to run a
 
 ![pi4](assets\img\pi4.png)
 
-## 1.1. Input monitoring with the Pi
+## 1.1. Pi On-Board Components
 
-The 40-pin GPIO header found on the Pi makes it so the computer can monitor various types of inputs. Most of the pins on the header can be programed as an input or an output. 
+The Pi has a Broadcom BCM2711, Quad core ARM processor with a 64 bit 
+
+
+
+
+
+## 1.2. Input monitoring with the Pi
+
+The 40-pin GPIO header found on the Pi enables the connection of the CPU monitor various types of inputs. Most of the pins on the header can be programed as an input or an output. 
 The input pins can be used to monitor the state of a switch or value of a sensor. 
 
 ![pi_input](assets\img\pi_input.png)
@@ -27,7 +35,7 @@ The input pins can be used to monitor the state of a switch or value of a sensor
 
 
 
-## 1.2. GPIO Header
+## 1.3. GPIO Header
 
 The GPIO header on the Pi has 40 male pins spaced 2.54 mm / 0.1 in apart. The Pi uses two distinct pin naming conventions. Understanding the pin numbering is critical to correctly working with the GPIO. The physical pin numbering (BOARD) is shown in the center rectangle of Figure 1. The odd physical pins are on the left side and the even pins are on the right side. The pins are numbered in sequence from left to right. The second numbering system uses the Broadcom (BCM) CPU pin sequence. Most of these pins are labeled with a GPIO on the front of the name. They are not sequenced on the board in any discernible pattern.  The following bullet points show an example of the two numbering systems.
 - BOARD pin 11 is the same as BCM pin 17 which is labeled GPIO17
