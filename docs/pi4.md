@@ -27,6 +27,17 @@ The [Pi has the following components built into the board](https://www.raspberry
 - Micro-SD card slot
 - USB-C for 5V power
 
+### 1.1.1. Central Processing Unit (CPU)
+
+The CPU on the Pi is the used to execute instructions. The CPU is given instruction by a program that is written in a language called Python.  [What does a CPU actually do?] (https://www.digitaltrends.com/computing/what-is-a-cpu/)
+
+### 1.1.2. Circuit Traces
+
+The Pi's components are mounted on a [printed circuit board (PCB)](https://www.youtube.com/watch?v=H9pGbLJknDk). The PCB has small conductive paths that connect the components to each other. These conductive paths replace the need for traditional electrical wiring.
+
+### 1.1.3. General Purpose Input Output (GPIO)
+
+The 40-pin GPIO header found on the Pi enables easy access to the CPU pins. The pins are spaced 2.54mm (0.1 inches) apart.
 
 ## 1.2. Input monitoring with the Pi
 
