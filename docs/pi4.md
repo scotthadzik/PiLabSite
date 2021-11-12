@@ -4,7 +4,7 @@ title: Introduction to the Raspberry Pi
 nav_order: 1
 ---
 <p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OIiorW_x8VA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/frOM7ITbsGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </p>
 
