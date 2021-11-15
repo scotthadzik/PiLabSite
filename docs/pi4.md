@@ -15,7 +15,7 @@ is a credit card size computer that contains all the necessary hardware to run a
 
 | -: |
 
-| **Fig.1 - Raspberry Pi 4 Model B**|
+| **Fig.1 - Raspberry Pi 4 Model B** |
 ![pi4](assets\img\pi4.png)
 
 ## 1.1. Pi On-Board Components
@@ -33,6 +33,9 @@ The **[Pi has the following components built into the board](https://www.raspber
 ### 1.1.1. Central Processing Unit (CPU)
 
 The CPU on the Pi is the used to execute instructions. The CPU is given instruction by a program that is written in a language called Python.  **[What does a CPU actually do?](https://www.digitaltrends.com/computing/what-is-a-cpu/)**
+
+
+
 
 ### 1.1.2. Circuit Traces
 
