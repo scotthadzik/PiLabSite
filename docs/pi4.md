@@ -12,7 +12,8 @@ nav_order: 1
 
 The **[Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)**
 is a credit card size computer that contains all the necessary hardware to run a computer operating system. The board has a Central Processing Unit (CPU) as well as a Graphics Processing Unit (GPU) This low-cost single board computer provides the user with access to the General-Purpose Input/Output (GPIO) physical pins that connect to the CPU. The GPIO pins allow the user to program the physical pins on the processor and use those pins as either an input or an output.  The Raspberry Pi 4 is the newest version of the board and will remain in production until at least January 2026.
-
+| :----: |
+| <b>Fig.1 - Raspberry Pi 4 Model B</b>|
 ![pi4](assets\img\pi4.png)
 
 ## 1.1. Pi On-Board Components
@@ -44,12 +45,9 @@ The 40-pin GPIO header found on the Pi enables easy access to the CPU pins. The 
 The 40-pin GPIO header found on the Pi enables the connection of the CPU monitor various types of inputs. Most of the pins on the header can be programed as an input or an output. 
 The input pins can be used to monitor the state of a switch or value of a sensor. 
 
-![pi_input](assets\img\pi_input.png)
-
 | :----: |
 | <b>Fig.2 - GPIO as an Input</b>|
-
-
+![pi_input](assets\img\pi_input.png)
 
 ## 1.3. GPIO Header
 
