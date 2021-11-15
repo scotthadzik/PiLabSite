@@ -17,7 +17,7 @@ is a credit card size computer that contains all the necessary hardware to run a
 
 ## 1.1. Pi On-Board Components
 
-The [Pi has the following components built into the board](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)
+The **[Pi has the following components built into the board](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)**
 - Broadcom BCM2711, Quad core ARM 64 bit processor
 - RAM options of 2GB, 4GB, 8GB
 - Wireless and Bluetooth connectivity
@@ -29,11 +29,11 @@ The [Pi has the following components built into the board](https://www.raspberry
 
 ### 1.1.1. Central Processing Unit (CPU)
 
-The CPU on the Pi is the used to execute instructions. The CPU is given instruction by a program that is written in a language called Python.  [What does a CPU actually do?] (https://www.digitaltrends.com/computing/what-is-a-cpu/)
+The CPU on the Pi is the used to execute instructions. The CPU is given instruction by a program that is written in a language called Python.  **[What does a CPU actually do?](https://www.digitaltrends.com/computing/what-is-a-cpu/)**
 
 ### 1.1.2. Circuit Traces
 
-The Pi's components are mounted on a [printed circuit board (PCB)](https://www.youtube.com/watch?v=H9pGbLJknDk). The PCB has small conductive paths that connect the components to each other. These conductive paths replace the need for traditional electrical wiring.
+The Pi's components are mounted on a **[printed circuit board (PCB)](https://www.youtube.com/watch?v=H9pGbLJknDk)**. The PCB has small conductive paths that connect the components to each other. These conductive paths replace the need for traditional electrical wiring.
 
 ### 1.1.3. General Purpose Input Output (GPIO)
 
@@ -56,6 +56,6 @@ The input pins can be used to monitor the state of a switch or value of a sensor
 The GPIO header on the Pi has 40 male pins spaced 2.54 mm / 0.1 in apart. The Pi uses two distinct pin naming conventions. Understanding the pin numbering is critical to correctly working with the GPIO. The physical pin numbering (BOARD) is shown in the center rectangle of Figure 1. The odd physical pins are on the left side and the even pins are on the right side. The pins are numbered in sequence from left to right. The second numbering system uses the Broadcom (BCM) CPU pin sequence. Most of these pins are labeled with a GPIO on the front of the name. They are not sequenced on the board in any discernible pattern.  The following bullet points show an example of the two numbering systems.
 - BOARD pin 11 is the same as BCM pin 17 which is labeled GPIO17
 - BOARD pin 13 is the same as BCM pin 27 which is labeled as GPIO27
-The numbering systems used by the Pi can be a bit confusing. Open source programs found online may use either system. The program will identify which of the systems that is used in the code.  Code Snippet 1 for BCM and Code Snippet 2 for BOARD. This paper and all associated code will use the BOARD numbering system. More Pi GPIO pin information can be found at https://pinout.xyz/. 
+The numbering systems used by the Pi can be a bit confusing. Open source programs found online may use either system. The program will identify which of the systems that is used in the code.  Code Snippet 1 for BCM and Code Snippet 2 for BOARD. This paper and all associated code will use the BOARD numbering system. More Pi GPIO pin information can be found at **[https://pinout.xyz/](https://pinout.xyz/)**. 
 
 
