@@ -16,7 +16,7 @@ is a credit card size computer that contains all the necessary hardware to run a
 
 
 ![pi4](assets\img\pi4.png)
-<p align=right >Fig.1 - Raspberry Pi 4 Model B - <b>Image By<a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/">Raspberry Pi </a></b>
+<p align=right >Fig.1 - Raspberry Pi 4 Model B - <b>Image By<a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/">Raspberry Pi</a></b></p>
 
 ## 1.1. Pi On-Board Components
 
