@@ -36,7 +36,9 @@ The CPU on the Pi is the used to execute instructions. The CPU is given instruct
 
 The Pi's components are mounted on a **[printed circuit board (PCB)](https://www.youtube.com/watch?v=H9pGbLJknDk)**. The PCB has small conductive paths that connect the components to each other. These conductive paths replace the need for traditional electrical wiring.
 
+| :----: |
 | <b>Fig.2 - Circuit Traces Image by <a href="https://pixabay.com/users/fabersam-98886/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Samuel Faber</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Pixabay</a></b>|
+
 ![chip](assets\img\chip-6074903.jpg)
 
 
