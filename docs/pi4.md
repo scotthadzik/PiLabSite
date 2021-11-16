@@ -30,14 +30,9 @@ The **[Pi has the following components built into the board](https://www.raspber
 - Micro-SD card slot
 - USB-C for 5V power
 
-### 1.1.1. Central Processing Unit (CPU)
-
-The CPU on the Pi is the used to execute instructions. The CPU is given instruction by a program that is written in a language called Python.  **[What does a CPU actually do?](https://www.digitaltrends.com/computing/what-is-a-cpu/)**
 
 
-
-
-### 1.1.2. Circuit Traces
+### 1.1.1. Circuit Traces
 
 The Pi's components are mounted on a **[printed circuit board (PCB)](https://www.youtube.com/watch?v=H9pGbLJknDk)**. The PCB has small conductive paths that connect the components to each other. These conductive paths replace the need for traditional electrical wiring.
 
@@ -47,19 +42,42 @@ The Pi's components are mounted on a **[printed circuit board (PCB)](https://www
 <p align=right><b>Fig.2 - Circuit Traces - Image by <a href="https://pixabay.com/users/fabersam-98886/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Samuel Faber</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Pixabay</a></b></p>
 
 
-### 1.1.3. General Purpose Input Output (GPIO)
+### 1.1.2. General Purpose Input Output (GPIO)
 
 The 40-pin GPIO header found on the Pi enables easy access to the CPU pins. The male header pins are spaced 2.54mm (0.1 inches) apart. The pins are used to make an CPU pins electrically accessible. We will cover the GPIO in detail in future pages.
 
-![chip](assets\img\chip-6074903.jpg)
-<p align=right><b>Fig.3 - Raspberry Pi 4 GPIOy</b></p>
+![pi_gpio](assets\img\piGPIO.jpg)
+<p align=right><b>Fig.3 - Raspberry Pi 4 GPIO</b></p>
+
+
+
 
 ## 1.2. Input monitoring with the Pi
 
-The 40-pin GPIO header found on the Pi enables the connection of the CPU monitor various types of inputs. Most of the pins on the header can be programed as an input or an output. 
-The input pins can be used to monitor the state of a switch or value of a sensor. 
+Incididunt veniam qui mollit ullamco ullamco anim. Ex fugiat excepteur quis incididunt ipsum ea ipsum reprehenderit elit cillum reprehenderit esse. Duis culpa officia cillum officia nulla non amet nulla id. Reprehenderit non sunt esse nostrud dolore adipisicing. Proident magna fugiat ullamco tempor laborum aliqua id aliqua eu.
 
-![pi_gpio](assets\img\piGPIO.jpg)
-<p align=right><b>Fig.4 - GPIO as an Input</b></p>
+![pi_gpio](assets\img\pi_input.png)
+<p align=right><b>Fig.4 - Input</b></p>
+
+## 1.3. Controlling an output with the Pi
+
+Sit officia culpa velit elit quis aliquip. Commodo ea Lorem proident officia qui laboris proident velit et. Cupidatat nulla occaecat Lorem aliqua exercitation labore nisi ea aliquip laborum. Tempor esse consectetur reprehenderit laboris commodo aliquip. Sunt consequat duis commodo nisi labore amet labore fugiat et eu tempor proident. Esse elit Lorem reprehenderit ullamco occaecat exercitation aliqua ut eiusmod exercitation. Ipsum et nulla est irure exercitation aliqua sunt tempor irure velit.
+
+![pi_gpio](assets\img\pi_input.png)
+<p align=right><b>Fig.3 - Output</b></p>
+
+## 1.4. Central Processing Unit (CPU)
+
+The CPU on the Pi is the used to execute instructions. The CPU is given instruction by a program that is written in a language called Python.  **[What does a CPU actually do?](https://www.digitaltrends.com/computing/what-is-a-cpu/)**
+
+![pi_gpio](assets\img\CPUProcess.jpg)
+<p align=right><b>Fig.4 - CPU</b></p>
+
+## 1.5. Memory
+
+Aliqua non eu ad aute laborum officia nostrud ea pariatur proident deserunt incididunt anim laboris. Quis Lorem commodo excepteur cillum elit laboris ut enim eu. Qui occaecat do dolore eiusmod culpa consequat tempor. Magna sit ullamco aute sunt occaecat cillum ipsum qui proident consequat ut laborum et aute.
+
+![pi_gpio](assets\img\CPUProcess.jpg)
+<p align=right><b>Fig.5 - Memory</b></p>
 
 
