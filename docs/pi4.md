@@ -80,4 +80,11 @@ Aliqua non eu ad aute laborum officia nostrud ea pariatur proident deserunt inci
 ![pi_gpio](assets\img\CPUProcess.jpg)
 <p align=right><b>Fig.5 - Memory</b></p>
 
+## 1.6 Programming Language - Python
+
+Aute laboris deserunt enim officia tempor culpa enim reprehenderit. Irure excepteur minim do nostrud commodo aliqua. Adipisicing quis et tempor irure cillum sint nostrud cupidatat nulla in laborum. Ut sunt id enim adipisicing enim ipsum est quis ullamco tempor irure ut dolore. Velit Lorem ullamco amet sunt. Velit nisi est et irure nostrud ipsum magna exercitation anim aliquip reprehenderit commodo magna.
+
+![pi_gpio](assets\img\CPUProcess.jpg)
+<p align=right><b>Fig.5 - Memory</b></p>
+
 
