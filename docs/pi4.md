@@ -30,13 +30,9 @@ The **[Pi has the following components built into the board](https://www.raspber
 - Micro-SD card slot
 - USB-C for 5V power
 
-
-
-
-
 ## 1.2. Central Processing Unit (CPU)
 
-The CPU on the Pi is the used to execute instructions. The CPU is given instruction by a program that is written in a language called Python.  **[What does a CPU actually do?](https://www.digitaltrends.com/computing/what-is-a-cpu/)**
+The CPU on the Pi is the used to execute instructions. The CPU is given instruction from memory using content saved in storage. This storage content is written in a language called Python.  **[What does a CPU actually do?](https://www.digitaltrends.com/computing/what-is-a-cpu/)**
 
 ![CPU](assets\img\cpu.jpg)
 <p align=right><b>Fig.4 - CPU</b></p>
@@ -49,42 +45,41 @@ The Pi's components are mounted on a **[printed circuit board (PCB)](https://www
 <p align=right><b>Fig.2 - Circuit Traces - Image by <a href="https://pixabay.com/users/fabersam-98886/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Samuel Faber</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Pixabay</a></b></p>
 
 
-## 1.3. Memory
+## 1.3. Memory and Storage
 
-Aliqua non eu ad aute laborum officia nostrud ea pariatur proident deserunt incididunt anim laboris. Quis Lorem commodo excepteur cillum elit laboris ut enim eu. Qui occaecat do dolore eiusmod culpa consequat tempor. Magna sit ullamco aute sunt occaecat cillum ipsum qui proident consequat ut laborum et aute.
+The Pi has options for 2GB, 4G, and 8GB memory. This memory is Random Access Memory (RAM). RAM is volatile meaning it is erased as soon as the power is turned off. RAM is used by the CPU to access the programming instructions found in storage.
 
-![pi_gpio](assets\img\CPUProcess.jpg)
-<p align=right><b>Fig.5 - Memory</b></p>
+A micro-SD card is used for data storage on the pi. The operating system (OS) and all of the programs are stored on the micro-SD card. The micro-SD card can be removed and inserted into a different Pi 4. The OS and all the programs can be used in a similar manner on any other Pi 4.
+
+![pi_gpio](assets\img\StorageMemory.jpg)
+<p align=right><b>Fig.5 - Memory vs Storage</b></p>
 
 
 
-### 1.3.1. General Purpose Input Output (GPIO)
+## 1.4. General Purpose Input Output (GPIO)
 
 The 40-pin GPIO header found on the Pi enables easy access to the CPU pins. The male header pins are spaced 2.54mm (0.1 inches) apart. The pins are used to make an CPU pins electrically accessible. We will cover the GPIO in detail in future pages.
 
 ![pi_gpio](assets\img\piGPIO.jpg)
 <p align=right><b>Fig.3 - Raspberry Pi 4 GPIO</b></p>
 
+## 1.5. Input monitoring with the Pi
 
-
-
-## 1.4. Input monitoring with the Pi
-
-Incididunt veniam qui mollit ullamco ullamco anim. Ex fugiat excepteur quis incididunt ipsum ea ipsum reprehenderit elit cillum reprehenderit esse. Duis culpa officia cillum officia nulla non amet nulla id. Reprehenderit non sunt esse nostrud dolore adipisicing. Proident magna fugiat ullamco tempor laborum aliqua id aliqua eu.
+Most of the pins on the GPIO can be programmed to operate as an input monitor. The pin can monitor the condition of a switch (on/off) or the position of a sensor (5 degrees, 20 degrees, 70 degrees ...) 
 
 ![pi_gpio](assets\img\pi_input.png)
 <p align=right><b>Fig.4 - Input</b></p>
 
-## 1.5. Controlling an output with the Pi
+## 1.6. Output control with the Pi
 
-Sit officia culpa velit elit quis aliquip. Commodo ea Lorem proident officia qui laboris proident velit et. Cupidatat nulla occaecat Lorem aliqua exercitation labore nisi ea aliquip laborum. Tempor esse consectetur reprehenderit laboris commodo aliquip. Sunt consequat duis commodo nisi labore amet labore fugiat et eu tempor proident. Esse elit Lorem reprehenderit ullamco occaecat exercitation aliqua ut eiusmod exercitation. Ipsum et nulla est irure exercitation aliqua sunt tempor irure velit.
+Most of the pins on the GPIO can be programmed to operate as an output. The pin can be used to turn on a light or vary the speed of a motor.
 
 ![pi_gpio](assets\img\pi_input.png)
 <p align=right><b>Fig.3 - Output</b></p>
 
 
 
-## 1.6. 1.6 Programming Language - Python
+## 1.7. Programming Language - Python
 
 Aute laboris deserunt enim officia tempor culpa enim reprehenderit. Irure excepteur minim do nostrud commodo aliqua. Adipisicing quis et tempor irure cillum sint nostrud cupidatat nulla in laborum. Ut sunt id enim adipisicing enim ipsum est quis ullamco tempor irure ut dolore. Velit Lorem ullamco amet sunt. Velit nisi est et irure nostrud ipsum magna exercitation anim aliquip reprehenderit commodo magna.
 
