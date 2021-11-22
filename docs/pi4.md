@@ -35,14 +35,14 @@ The **[Pi has the following components built into the board](https://www.raspber
 The CPU on the Pi is the used to execute instructions. The CPU is given instruction from memory using content saved in storage. This storage content is written in a language called Python.  **[What does a CPU actually do?](https://www.digitaltrends.com/computing/what-is-a-cpu/)**
 
 ![CPU](assets\img\cpu.jpg)
-<p align=right><b>Fig.4 - CPU</b></p>
+<p align=right><b>Fig.2 - Central Processing Unit</b></p>
 
 ### 1.2.1. Circuit Traces
 
 The Pi's components are mounted on a **[printed circuit board (PCB)](https://www.youtube.com/watch?v=H9pGbLJknDk)**. The PCB has small conductive paths that connect the components to each other. These conductive paths replace the need for traditional electrical wiring.
 
 ![chip](assets\img\chip-6074903.jpg)
-<p align=right><b>Fig.2 - Circuit Traces - Image by <a href="https://pixabay.com/users/fabersam-98886/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Samuel Faber</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Pixabay</a></b></p>
+<p align=right><b>Fig.3 - Circuit Traces - Image by <a href="https://pixabay.com/users/fabersam-98886/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Samuel Faber</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Pixabay</a></b></p>
 
 
 ## 1.3. Memory and Storage
@@ -52,7 +52,7 @@ The Pi has options for 2GB, 4G, and 8GB memory. This memory is Random Access Mem
 A micro-SD card is used for data storage on the pi. The operating system (OS) and all of the programs are stored on the micro-SD card. The micro-SD card can be removed and inserted into a different Pi 4. The OS and all the programs can be used in a similar manner on any other Pi 4.
 
 ![pi_gpio](assets\img\StorageMemory.jpg)
-<p align=right><b>Fig.5 - Memory vs Storage</b></p>
+<p align=right><b>Fig.4 - Memory vs Storage</b></p>
 
 
 
@@ -61,21 +61,21 @@ A micro-SD card is used for data storage on the pi. The operating system (OS) an
 The 40-pin GPIO header found on the Pi enables easy access to the CPU pins. The male header pins are spaced 2.54mm (0.1 inches) apart. The pins are used to make an CPU pins electrically accessible. We will cover the GPIO in detail in future pages.
 
 ![pi_gpio](assets\img\piGPIO.jpg)
-<p align=right><b>Fig.3 - Raspberry Pi 4 GPIO</b></p>
+<p align=right><b>Fig.5 - Raspberry Pi 4 GPIO</b></p>
 
 ## 1.5. Input monitoring with the Pi
 
 Most of the pins on the GPIO can be programmed to operate as an input monitor. The pin can monitor the condition of a switch (on/off) or the position of a sensor (5 degrees, 20 degrees, 70 degrees ...) 
 
 ![pi_gpio](assets\img\pi_input.png)
-<p align=right><b>Fig.4 - Input</b></p>
+<p align=right><b>Fig.6 - Input</b></p>
 
 ## 1.6. Output control with the Pi
 
 Most of the pins on the GPIO can be programmed to operate as an output. The pin can be used to turn on a light or vary the speed of a motor.
 
 ![pi_gpio](assets\img\output.jpg)
-<p align=right><b>Fig.3 - Output</b></p>
+<p align=right><b>Fig.7 - Output</b></p>
 
 
 
@@ -97,8 +97,8 @@ print(answer)
 
 ## 1.8. Running Programs on the Pi
 
-The Pi uses instructions from storage that are written in python. Those instructions are written to memory when the Pi is given the command to run the program. The CPU fetches the instructions from memory, performs the needed calculations and returns the results. The CPU and Memory us the information recieved from 
+The Pi uses instructions from storage that are written in python. Those instructions are written to memory when the Pi is given the command to run the program. The CPU fetches the instructions from memory, performs the needed calculations and returns the results. The CPU and Memory use the information from the GPIO to identify the state of any pins designated as inputs. The information gathered from the input pins is used by memory to modify instructions. 
 
 ![pi_gpio](assets\img\ComputerProcessor.jpg)
-<p align=right><b>Fig.5 - Processes of running a program</b></p>
+<p align=right><b>Fig.8 - Processes of running a program</b></p>
 
