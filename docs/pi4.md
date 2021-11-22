@@ -74,16 +74,31 @@ Most of the pins on the GPIO can be programmed to operate as an input monitor. T
 
 Most of the pins on the GPIO can be programmed to operate as an output. The pin can be used to turn on a light or vary the speed of a motor.
 
-![pi_gpio](assets\img\pi_input.png)
+![pi_gpio](assets\img\output.jpg)
 <p align=right><b>Fig.3 - Output</b></p>
 
 
 
 ## 1.7. Programming Language - Python
 
-Aute laboris deserunt enim officia tempor culpa enim reprehenderit. Irure excepteur minim do nostrud commodo aliqua. Adipisicing quis et tempor irure cillum sint nostrud cupidatat nulla in laborum. Ut sunt id enim adipisicing enim ipsum est quis ullamco tempor irure ut dolore. Velit Lorem ullamco amet sunt. Velit nisi est et irure nostrud ipsum magna exercitation anim aliquip reprehenderit commodo magna.
+[Python](https://www.python.org/) is a popular programming language. Computers communicate using a series of 1's and 0's. It would be challenging to remember the sequence of 1's and 0's for every set of instruction that you want the computer to run. Software engineers use high level languages (HLL), like Python, to write programs that are more readable. These HLLs are converted into binary in order for the computer to run the instructions.
 
-![pi_gpio](assets\img\CPUProcess.jpg)
-<p align=right><b>Fig.5 - Memory</b></p>
+```python
+# Python Example -- multiply two numbers
 
+first_number = 100
+second_number = 50
+
+answer = first_number * second_number
+
+print(answer)
+
+```
+
+## 1.8. Running Programs on the Pi
+
+The Pi uses instructions from storage that are written in python. Those instructions are written to memory when the Pi is given the command to run the program. The CPU fetches the instructions from memory, performs the needed calculations and returns the results. The CPU and Memory us the information recieved from 
+
+![pi_gpio](assets\img\ComputerProcessor.jpg)
+<p align=right><b>Fig.5 - Processes of running a program</b></p>
 
