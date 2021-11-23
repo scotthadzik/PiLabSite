@@ -13,7 +13,7 @@ An [LED](https://learn.adafruit.com/all-about-leds/what-are-leds-used-for) is an
 
 
 
-![pi4](assets\img\led-profile-sm.png)
+![pi4](assets\img\led-on.png)
 <p align=right><b>Fig.1 - Light Emitting Diode - Image by <a href="https://pixabay.com/users/95c-484762/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=543475">95C</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=543475">Pixabay</a></b></p>
 
 ## 2.1. Pi On-Board Components
