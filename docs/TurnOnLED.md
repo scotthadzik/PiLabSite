@@ -9,12 +9,21 @@ TODO video
 
 # 2. Light Emitting Diode (LED)
 
-An [LED](https://learn.adafruit.com/all-about-leds/what-are-leds-used-for) is an electronic device that illuminates when current 
+An [LED](https://learn.adafruit.com/all-about-leds/what-are-leds-used-for) is an electronic device that illuminates when current passes through it in the "correct direction", also known as a forward-bias. 
 
-
+When the positive terminal of a battery is applied to the anode (+) and the negative terminal of the battery is applied to the cathode (-), current flows through the LED. Voltage applied in the other direction results in no current flow. This is referred to as reverse bias.
 
 ![pi4](assets\img\led-on.png)
-<p align=right><b>Fig.1 - Light Emitting Diode - Image by <a href="https://pixabay.com/users/95c-484762/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=543475">95C</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=543475">Pixabay</a></b></p>
+<p align=right><b>Fig.1 - Light Emitting Diode - Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2023979">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2023979">Pixabay</a></b></p>
+
+
+The anode (+) is typically the longer side of a through-hole LED.
+
+![pi4](assets\img\led-symbol.png)
+<p align=right><b>Fig.1 - Light Emitting Diode Symbol - Image by <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/%2B-_of_LED_2.svg">Adam850</a> from <a href="https://commons.wikimedia.org/wiki/File:%2B-_of_LED_2.svg">Wikimedia</a></b></p>
+
+
+
 
 ## 2.1. Pi On-Board Components
 
