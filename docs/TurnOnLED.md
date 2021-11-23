@@ -11,7 +11,7 @@ TODO video
 
 An [LED](https://learn.adafruit.com/all-about-leds/what-are-leds-used-for) is an electronic device that illuminates when current passes through it in the "correct direction", also known as a forward-bias. 
 
-When the positive terminal of a battery is applied to the anode (+) and the negative terminal of the battery is applied to the cathode (-), current flows through the LED. Voltage applied in the other direction results in no current flow. This is referred to as reverse bias.
+When the positive terminal of a battery is applied to the anode (+) and the negative terminal of the battery is applied to the cathode (-), current flows through the LED (forward bias). Voltage applied in the other direction results in no current flow (reverse bias). 
 
 ![pi4](assets\img\led-on.png)
 <p align=right><b>Fig.1 - Light Emitting Diode - Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2023979">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2023979">Pixabay</a></b></p>
