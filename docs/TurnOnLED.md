@@ -9,11 +9,11 @@ TODO video
 
 # 2. Light Emitting Diode (LED)
 
-Aute excepteur elit commodo ad ex labore anim ex et. Laborum elit Lorem ipsum Lorem veniam fugiat magna qui culpa dolore. Esse quis est aute ut dolor sit sunt exercitation duis mollit ut elit laborum. Incididunt mollit nisi elit et consequat occaecat ad eiusmod tempor aute culpa proident duis non. Eu aliqua fugiat aliqua voluptate mollit dolor enim laborum. Dolor quis elit nulla adipisicing pariatur ipsum occaecat ut laboris.
+An [LED](https://learn.adafruit.com/all-about-leds/what-are-leds-used-for) is an electronic device that illuminates when current 
 
 
 
-![pi4](assets\img\led-profile.png)
+![pi4](assets\img\led-profile-sm.png)
 <p align=right><b>Fig.1 - Light Emitting Diode - Image by <a href="https://pixabay.com/users/95c-484762/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=543475">95C</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=543475">Pixabay</a></b></p>
 
 ## 2.1. Pi On-Board Components
