@@ -13,7 +13,7 @@ Aute excepteur elit commodo ad ex labore anim ex et. Laborum elit Lorem ipsum Lo
 
 
 
-![pi4](assets\img\LED.svg)
+![pi4](assets\img\led-profile.png)
 <p align=right><b>Fig.1 - Raspberry Pi 4 Model B - Image By<a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"> Raspberry Pi</a></b></p>
 
 ## 2.1. Pi On-Board Components
