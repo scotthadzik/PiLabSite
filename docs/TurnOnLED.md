@@ -7,7 +7,7 @@ nav_order: 2
 TODO video
 </p>
 
-# 1. Light Emitting Diode
+# 2. Light Emitting Diode
 
 Aute excepteur elit commodo ad ex labore anim ex et. Laborum elit Lorem ipsum Lorem veniam fugiat magna qui culpa dolore. Esse quis est aute ut dolor sit sunt exercitation duis mollit ut elit laborum. Incididunt mollit nisi elit et consequat occaecat ad eiusmod tempor aute culpa proident duis non. Eu aliqua fugiat aliqua voluptate mollit dolor enim laborum. Dolor quis elit nulla adipisicing pariatur ipsum occaecat ut laboris.
 
@@ -16,7 +16,7 @@ Aute excepteur elit commodo ad ex labore anim ex et. Laborum elit Lorem ipsum Lo
 ![pi4](assets\img\LED.svg)
 <p align=right><b>Fig.1 - Raspberry Pi 4 Model B - Image By<a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/"> Raspberry Pi</a></b></p>
 
-## 1.1. Pi On-Board Components
+## 2.1. Pi On-Board Components
 
 The **[Pi has the following components built into the board](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)**
 - Broadcom BCM2711, Quad core ARM 64 bit processor
@@ -28,14 +28,14 @@ The **[Pi has the following components built into the board](https://www.raspber
 - Micro-SD card slot
 - USB-C for 5V power
 
-## 1.2. Central Processing Unit (CPU)
+## 2.2. Central Processing Unit (CPU)
 
 The CPU on the Pi is the used to execute instructions. The CPU is given instruction from memory using content saved in storage. This storage content is written in a language called Python.  **[What does a CPU actually do?](https://www.digitaltrends.com/computing/what-is-a-cpu/)**
 
 ![CPU](assets\img\cpu.jpg)
 <p align=right><b>Fig.2 - Central Processing Unit</b></p>
 
-### 1.2.1. Circuit Traces
+### 2.2.1. Circuit Traces
 
 The Pi's components are mounted on a **[printed circuit board (PCB)](https://www.youtube.com/watch?v=H9pGbLJknDk)**. The PCB has small conductive paths that connect the components to each other. These conductive paths replace the need for traditional electrical wiring.
 
@@ -43,7 +43,7 @@ The Pi's components are mounted on a **[printed circuit board (PCB)](https://www
 <p align=right><b>Fig.3 - Circuit Traces - Image by <a href="https://pixabay.com/users/fabersam-98886/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Samuel Faber</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Pixabay</a></b></p>
 
 
-## 1.3. Memory and Storage
+## 2.3. Memory and Storage
 
 The Pi has options for 2GB, 4G, and 8GB memory. This memory is Random Access Memory (RAM). RAM is volatile meaning it is erased as soon as the power is turned off. RAM is used by the CPU to access the programming instructions found in storage.
 
