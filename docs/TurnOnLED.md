@@ -31,7 +31,7 @@ Pixabay
 The anode (+) is typically the longer side of an LED. The cathode (-) is typically the flat side of an LED. The triangle on the schematic is the anode (+) side of the LED
 
 
-![LED Symbol](assets\img\LEDx3.svg)
+![LED Symbol](assets\img\LEDx3.jpg)
 
 </p>
 <p align=right><b>Fig.2 - Light Emitting Diode Symbol - Image by <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/%2B-_of_LED_2.svg">Adam850</a> from <a href="https://commons.wikimedia.org/wiki/File:%2B-_of_LED_2.svg">Wikimedia</a></b></p>
