@@ -24,14 +24,14 @@ OpenClipart-Vectors</a>
 from 
 <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2023979">
 Pixabay
-</a></b></p></p>
+</a></b></p>
 
 ## 2.1 Parts of an LED
 
 The anode (+) is typically the longer side of an LED. The cathode (-) is typically the flat side of an LED. The triangle on the schematic is the anode (+) side of the LED
 
 
-![LED Symbol](assets\img\led-sym.png)
+![LED Symbol](assets\img\LEDx3.svg)
 
 </p>
 <p align=right><b>Fig.2 - Light Emitting Diode Symbol - Image by <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/%2B-_of_LED_2.svg">Adam850</a> from <a href="https://commons.wikimedia.org/wiki/File:%2B-_of_LED_2.svg">Wikimedia</a></b></p>
