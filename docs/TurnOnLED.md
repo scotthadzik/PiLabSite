@@ -13,7 +13,7 @@ An [LED](https://learn.adafruit.com/all-about-leds/what-are-leds-used-for) is an
 
 When the positive terminal of a battery is applied to the anode (+) and the negative terminal of the battery is applied to the cathode (-), current flows through the LED (forward bias). Voltage applied in the other direction results in no current flow (reverse bias). 
 
-![LED](assets\img\led-on.png)
+![LED](assets/img/LED-side.jpg)
 
 
 
