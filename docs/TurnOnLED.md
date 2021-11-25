@@ -13,8 +13,6 @@ An [LED](https://learn.adafruit.com/all-about-leds/what-are-leds-used-for) is an
 
 When the positive terminal of a battery is applied to the anode (+) and the negative terminal of the battery is applied to the cathode (-), current flows through the LED (forward bias). Voltage applied in the other direction results in no current flow (reverse bias). 
 
-<p align=center>
-
 ![LED](assets\img\led-on.png)
 
 
@@ -32,7 +30,6 @@ Pixabay
 
 The anode (+) is typically the longer side of an LED. The cathode (-) is typically the flat side of an LED. The triangle on the schematic is the anode (+) side of the LED
 
-<p align=center>
 
 ![LED Symbol](assets\img\led-sym.png)
 
