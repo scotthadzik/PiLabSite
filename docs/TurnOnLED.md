@@ -15,39 +15,42 @@ When the positive terminal of a battery is applied to the anode (+) and the nega
 
 ![LED](assets/img/LED-side.jpg)
 
-<p align=right><b>Fig.2 - Light Emitting Diode Symbol - Original Image by <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/%2B-_of_LED_2.svg">Adam850</a> from <a href="https://commons.wikimedia.org/wiki/File:%2B-_of_LED_2.svg">Wikimedia</a></b></p>
+<p align=right>
+    <b>Fig.2 - Light Emitting Diode Symbol - Image by 
+        <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/%2B-_of_LED_2.svg">Adam850, </a>
+        <a href="https://creativecommons.org/licenses/by-sa/3.0">J Navas</a>, via Wikimedia Commons
+    </b>
+</p>
 
-## 2.1 Parts of an LED
+## 2.1. Parts of an LED
 
 The anode (+) is typically the longer side of an LED (see Side Profile). The cathode (-) is typically the flat side of an LED (see Top Profile). The schematic symbol for an LED is a diode with arrows representing the light emitting component of an LED (see LED Schematic Symbol)
 
-
 ![LED Symbol](assets\img\LEDx3.jpg)
 
+<p align=right>
+    <b>Fig.2 - Light Emitting Diode Symbol - Original Image by 
+        <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/%2B-_of_LED_2.svg">Adam850</a> 
+        via Wikimedia</a>
+    </b>
+</p>
 
-<p align=right><b>Fig.2 - Light Emitting Diode Symbol - Original Image by <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/%2B-_of_LED_2.svg">Adam850</a> from <a href="https://commons.wikimedia.org/wiki/File:%2B-_of_LED_2.svg">Wikimedia</a></b></p>
+## 2.2. Using an LED in a circuit
+
+An LED has a forward voltage typically between 1.5 to 4 volts. Exceeding this voltage value will result in an increased amount of current and damage to the LED. In order to ensure that the forward voltage is correct an inline resistor needs to be added to all LED circuits. An [online calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-led-series-resistor) can be used to determine the resistance value needed for a specific LED.
 
 
-## 2.1. Pi On-Board Components
 
-The **[Pi has the following components built into the board](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)**
-- Broadcom BCM2711, Quad core ARM 64 bit processor
-- RAM options of 2GB, 4GB, 8GB
-- Wireless and Bluetooth connectivity
-- Ethernet port
-- USB 3.0 and USB 2.0
-- 2 x micro-HDMI connectors
-- Micro-SD card slot
-- USB-C for 5V power
 
-## 2.2. Central Processing Unit (CPU)
+
+## 1.3. Central Processing Unit (CPU)
 
 The CPU on the Pi is the used to execute instructions. The CPU is given instruction from memory using content saved in storage. This storage content is written in a language called Python.  **[What does a CPU actually do?](https://www.digitaltrends.com/computing/what-is-a-cpu/)**
 
 ![CPU](assets\img\cpu.jpg)
 <p align=right><b>Fig.2 - Central Processing Unit</b></p>
 
-### 2.2.1. Circuit Traces
+### 1.3.1. Circuit Traces
 
 The Pi's components are mounted on a **[printed circuit board (PCB)](https://www.youtube.com/watch?v=H9pGbLJknDk)**. The PCB has small conductive paths that connect the components to each other. These conductive paths replace the need for traditional electrical wiring.
 
@@ -55,7 +58,7 @@ The Pi's components are mounted on a **[printed circuit board (PCB)](https://www
 <p align=right><b>Fig.3 - Circuit Traces - Image by <a href="https://pixabay.com/users/fabersam-98886/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Samuel Faber</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6074903">Pixabay</a></b></p>
 
 
-## 2.3. Memory and Storage
+## 1.4. Memory and Storage
 
 The Pi has options for 2GB, 4G, and 8GB memory. This memory is Random Access Memory (RAM). RAM is volatile meaning it is erased as soon as the power is turned off. RAM is used by the CPU to access the programming instructions found in storage.
 
@@ -66,21 +69,21 @@ A micro-SD card is used for data storage on the pi. The operating system (OS) an
 
 
 
-## 1.4. General Purpose Input Output (GPIO)
+## 1.5. General Purpose Input Output (GPIO)
 
 The 40-pin GPIO header found on the Pi enables easy access to the CPU pins. The male header pins are spaced 2.54mm (0.1 inches) apart. The pins are used to make an CPU pins electrically accessible. We will cover the GPIO in detail in future pages.
 
 ![pi_gpio](assets\img\piGPIO.jpg)
 <p align=right><b>Fig.5 - Raspberry Pi 4 GPIO</b></p>
 
-## 1.5. Input monitoring with the Pi
+## 1.6. Input monitoring with the Pi
 
 Most of the pins on the GPIO can be programmed to operate as an input monitor. The pin can monitor the condition of a switch (on/off) or the position of a sensor (5 degrees, 20 degrees, 70 degrees ...) 
 
 ![pi_gpio](assets\img\pi_input.png)
 <p align=right><b>Fig.6 - Input</b></p>
 
-## 1.6. Output control with the Pi
+## 1.7. Output control with the Pi
 
 Most of the pins on the GPIO can be programmed to operate as an output. The pin can be used to turn on a light or vary the speed of a motor.
 
@@ -89,7 +92,7 @@ Most of the pins on the GPIO can be programmed to operate as an output. The pin 
 
 
 
-## 1.7. Programming Language - Python
+## 1.8. Programming Language - Python
 
 [Python](https://www.python.org/) is a popular programming language. Computers communicate using a series of 1's and 0's. It would be challenging to remember the sequence of 1's and 0's for every set of instruction that you want the computer to run. Software engineers use high level languages (HLL), like Python, to write programs that are more readable. These HLLs are converted into binary in order for the computer to run the instructions.
 
@@ -105,7 +108,7 @@ print(answer)
 
 ```
 
-## 1.8. Running Programs on the Pi
+## 1.9. Running Programs on the Pi
 
 The Pi uses instructions from storage that are written in python. Those instructions are written to memory when the Pi is given the command to run the program. The CPU fetches the instructions from memory, performs the needed calculations and returns the results. The CPU and Memory use the information from the GPIO to identify the state of any pins designated as inputs. The information gathered from the input pins is used by memory to modify instructions. 
 
