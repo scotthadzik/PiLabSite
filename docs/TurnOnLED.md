@@ -15,16 +15,7 @@ When the positive terminal of a battery is applied to the anode (+) and the nega
 
 ![LED](assets/img/LED-side.jpg)
 
-
-
-<p align=right>
-<b>Fig.1 - Light Emitting Diode - Image by 
-<a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2023979">
-OpenClipart-Vectors</a> 
-from 
-<a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2023979">
-Pixabay
-</a></b></p>
+<p align=right><b>Fig.2 - Light Emitting Diode Symbol - Original Image by <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/%2B-_of_LED_2.svg">Adam850</a> from <a href="https://commons.wikimedia.org/wiki/File:%2B-_of_LED_2.svg">Wikimedia</a></b></p>
 
 ## 2.1 Parts of an LED
 
