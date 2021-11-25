@@ -34,9 +34,7 @@ The anode (+) is typically the longer side of an LED (see Side Profile). The cat
 ![LED Symbol](assets\img\LEDx3.jpg)
 
 
-<p align=right><b>Fig.2 - Light Emitting Diode Symbol - Image by <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/%2B-_of_LED_2.svg">Adam850</a> from <a href="https://commons.wikimedia.org/wiki/File:%2B-_of_LED_2.svg">Wikimedia</a></b></p>
-
-
+<p align=right><b>Fig.2 - Light Emitting Diode Symbol - Original Image by <a href="https://upload.wikimedia.org/wikipedia/commons/5/52/%2B-_of_LED_2.svg">Adam850</a> from <a href="https://commons.wikimedia.org/wiki/File:%2B-_of_LED_2.svg">Wikimedia</a></b></p>
 
 
 ## 2.1. Pi On-Board Components
