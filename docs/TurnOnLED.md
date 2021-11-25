@@ -37,10 +37,13 @@ The anode (+) is typically the longer side of an LED (see Side Profile). The cat
 
 ## 2.2. Using an LED in a circuit
 
-An LED has a forward voltage typically between 1.5 to 4 volts. Exceeding this voltage value will result in an increased amount of current and damage to the LED. In order to ensure that the forward voltage is correct an inline resistor needs to be added to all LED circuits. An [online calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-led-series-resistor) can be used to determine the resistance value needed for a specific LED.
+An LED needs a forward voltage typically between 1.5 to 4 volts to operate. Exceeding this voltage value will result in an increased amount of current and damage to the LED. In order to ensure that the forward voltage is correct an inline resistor needs to be added to all LED circuits. An [online calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-led-series-resistor) can be used to determine the resistance value needed for a specific LED. The figure below shows an example LED circuit
 
-
-
+![Current Limiting](assets/img/currentLimiting.jpg)
+<p align=right>
+    <b>Fig.3 - An example LED schematic and current limiting resistor calculation
+    </b>
+</p>
 
 
 ## 1.3. Central Processing Unit (CPU)
