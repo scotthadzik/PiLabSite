@@ -22,7 +22,7 @@ When the positive terminal of a battery is applied to the anode (+) and the nega
     </b>
 </p>
 
-## 2.1. Parts of an LED
+### 2.1.0 Parts of an LED
 
 The anode (+) is typically the longer side of an LED (see Side Profile). The cathode (-) is typically the flat side of an LED (see Top Profile). The schematic symbol for an LED is a diode with arrows representing the light emitting component of an LED (see LED Schematic Symbol)
 
@@ -35,9 +35,9 @@ The anode (+) is typically the longer side of an LED (see Side Profile). The cat
     </b>
 </p>
 
-## 2.2. Using an LED in a circuit
+### 2.1.1 Using an LED in a circuit
 
-An LED needs a forward voltage typically between 1.5 to 4 volts to operate. Exceeding this voltage value will result in an increased amount of current and damage to the LED. In order to ensure that the forward voltage is correct an inline resistor needs to be added to all LED circuits. An [online calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-led-series-resistor) can be used to determine the resistance value needed for a specific LED. The figure below shows an example LED circuit
+An LED needs a forward voltage typically between 1.5 to 4 volts to operate. Exceeding this voltage value will result in an increased amount of current and damage to the LED. In order to ensure that the forward voltage is correct an inline resistor needs to be added to all LED circuits. An [online calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-led-series-resistor) can be used to determine the resistance value needed for a specific LED. The figure below shows an example LED circuit and the current limiting resistor.
 
 ![Current Limiting](assets/img/currentLimiting.jpg)
 <p align=right>
@@ -45,21 +45,12 @@ An LED needs a forward voltage typically between 1.5 to 4 volts to operate. Exce
     </b>
 </p>
 
+## 2.2 EXERCISE: Turn on an LED 
 
-## 1.3. Central Processing Unit (CPU)
+The LED that will be used for these experiments in mounted to a printed circuit board (PCB) made by [Sunfounder](https://www.sunfounder.com/collections/output-modules/products/dual-color-led-module). This PCB uses a dual color LED. The LED can be green or red depending on which pin is supplied a positive voltage.
 
-### 1.3.1. Circuit Traces
 
-## 1.4. Memory and Storage
+![LED_Board](assets/img/LED.jpg)
 
-## 1.5. General Purpose Input Output (GPIO)
-
-## 1.6. Input monitoring with the Pi
-
-## 1.7. Output control with the Pi
-
-## 1.8. Programming Language - Python
-
-## 1.9. Running Programs on the Pi
 
 
