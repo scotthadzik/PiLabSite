@@ -33,15 +33,22 @@ The numbering of the pins can be a bit challenging when working with the GPIO. T
 ![GPIO Reference Card](assets/img/GPIO-pin-names.jpg)
 <p align=right><b>Fig.2 - GPIO Naming Conventions</b></p>
 
-### 2.1.1 5V Power
+### 2.1.1 5V Power Pins
 
-With the **USB ports facing down** the top 2 pins on the right are 5V power (physical pins 2 and 4). This power comes directly from the Pi's power input. The amperage for these pins will max out around 1 to 2 amps if you are using the official pi 3A power supply.
+With the **USB ports facing down** the top 2 pins on the right are 5V power (physical pins 2 and 4). The power comes directly from the Pi's power input. The amperage for these pins will max out around 1 to 2 amps if you are using the official pi 3A power supply.
 
 ![GPIO 5V Power](assets/img/GPIO-pin-5V.jpg)
-<p align=right><b>Fig.2 - GPIO Naming Conventions</b></p>
+<p align=right><b>Fig.3 - 5V Power</b></p>
 
+### 2.1.2 Ground Pins
 
+With the **USB ports facing down** the ground pins are physical pins ( 9, 25, 39, 6, 14, 20, 30, 34 ). The eight ground pins are all electrically connected. 
 
+![GPIO 5V Power](assets/img/GPIO-pin-GND.jpg)
+<p align=right><b>Fig.3 - 5V Ground</b></p>
 
+### 2.1.3 GPIO Pins
+
+The GPIO pins are bi-directional. They can be used as an input or an output. An input pin can read a value of HIGH or LOW. An output pin can be turned HIGH or LOW. The GPIOs use 3.3V for both input and output.
 
 
