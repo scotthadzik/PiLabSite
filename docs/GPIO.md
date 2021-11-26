@@ -52,3 +52,6 @@ With the **USB ports facing down** the ground pins are physical pins ( 9, 25, 39
 The GPIO pins are bi-directional. They can be used as an input or an output. An input pin can read a value of HIGH or LOW. An output pin can be turned HIGH or LOW. The GPIOs use 3.3V for both input and output.
 
 
+## GPIO Extension Board
+
+![GPIO Extension Board](assets/img/GPIO-extension-board.jpg)
